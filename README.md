@@ -1,17 +1,35 @@
-# somali_stt
+# Somali Speech-to-Text (somali_stt)
 
-A new Flutter project.
+Real-time Somali speech recognition app for iPhone using Groq's Whisper API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Record Somali speech (5 seconds)
+- Send audio to Groq Whisper API
+- Display Somali text transcription
+- Secure API key storage with `.env`
+- Works offline (recording only, API needs internet)
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Component | Technology |
+|-----------|------------|
+| Mobile Framework | Flutter |
+| Speech Recognition | Groq Whisper API |
+| Audio Recording | flutter_sound |
+| State Management | Flutter StatefulWidget |
+| Platform | iOS / Android |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Prerequisites
+
+- Flutter SDK
+- Groq API key
+- iOS device or simulator
+- Xcode (for iOS development)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/nuredev/somali-stt.git
+cd somali-stt
